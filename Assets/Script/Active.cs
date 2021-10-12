@@ -19,7 +19,7 @@ public class Active : MonoBehaviour
     void Awake()
     {
         Core_object = GameObject.Find("Core");
-        default_mat = rend.material;
+        default_mat = rend.material;  //수정이 필요 하다?
 
         first_number = (int)this.transform.position.z;
         second_number = (int)this.transform.position.x;

@@ -370,8 +370,8 @@ MonoBehaviour:
   queen_r: {fileID: 4643510712832668552, guid: db0ca3adb39570e478731786b93dacff, type: 3}
   king: {fileID: 2116589474201762872, guid: 7fe8cd0a583fd3648bda0f6ca7827180, type: 3}
   king_r: {fileID: 6012760665743354397, guid: 7fe8cd0a583fd3648bda0f6ca7827180, type: 3}
-  empty_obj: {fileID: 1988121691499235865, guid: dbf164441f0200b4d95ad145e0a0c6c0, type: 3}
-  empty_r: {fileID: 4643510712832668552, guid: db0ca3adb39570e478731786b93dacff, type: 3}
+  empty_obj: {fileID: 7615253702063923083, guid: dbf164441f0200b4d95ad145e0a0c6c0, type: 3}
+  empty_r: {fileID: 5932455494923638263, guid: dbf164441f0200b4d95ad145e0a0c6c0, type: 3}
   king_alert: {fileID: 0}
   y: 0
   x: 0

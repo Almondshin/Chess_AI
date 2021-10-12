@@ -188,9 +188,9 @@ public class Core : MonoBehaviour
     void Start()
     {
         SetGameSettings();
-        UpdateFigures(); // 3D modeling에 들어가는 material
+        UpdateFigures(); // 3D modeling에 들어가는 material 
 
-        
+
 
         stateOBJ = GameObject.Find("StateMessanger");
         
@@ -247,15 +247,13 @@ public class Core : MonoBehaviour
 
                 }
 
-
                 Instantiate(cell, new Vector3(x, y, 0), Quaternion.identity);
 
 
                 if (board[y, x].figure_name == "empty")
                 {
 
-                    Instantiate(empty_obj, new Vector3(x, y, 0), transform.rotation);
-
+                    Instantiate(empty_obj, new Vector3(x, y, 0), transform.rotation); //수정이 필요 하다?
 
                 }
 
