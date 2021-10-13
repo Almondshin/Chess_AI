@@ -378,7 +378,8 @@ public class Core : MonoBehaviour
         }
 
         DeleteFigures();
-        //UpdateFigures();
+
+        UpdateFigures();
 
         board[y, x].isSecondActive = false;
         board[y, x].active = false;
